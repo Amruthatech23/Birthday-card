@@ -12,7 +12,7 @@ This is a **fun and stylish birthday invitation webpage** built with **HTML and 
 
 ## 📸 Screenshot
 
-![Birthday Invitation Screenshot](Screenshot 2025-04-24 182354.png)
+![Birthday Invitation Screenshot](./Screenshot 2025-04-24 182354.png)
 
 ## 🛠 Tech Stack
 
