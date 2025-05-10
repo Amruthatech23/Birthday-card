@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #deecfd;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  h1 {
+    margin-bottom: 25px;
+    color: #754bf4;
+  }
+  
+  .mood-display {
+    background-color: #b3cefb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .mood-display .emoji {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .mood-display h2 {
+    font-size: 1.8rem;
+    color: #4e36a0;
+  }
+  
+  .mood-display p {
+    color: #444;
+    font-size: 1rem;
+  }
+  
+  .mood-options button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5622cf;
+    color: white;
+    font-weight: bold;
+    cursor: not-allowed; /* Buttons are just visual for now */
+    opacity: 0.7;
+  }
+  
+  .mood-options button:hover {
+    opacity: 1;
+  }
+  
